@@ -37,51 +37,25 @@ Label Encoding
 
 The word ordinal means that the categories have a meaningful order or ranking.
 
-For example:
+### Example
 
-Poor < Average < Good
+#### Before Encoding
 
-We can encode them as:
+| Review  |
+|---------|
+| Good    |
+| Poor    |
+| Average |
+| Good    |
 
-Poor     → 0
-Average  → 1
-Good     → 2
+#### After Encoding
 
-Example
-
-Before encoding:
-
-Review
-
-Good
-
-Poor
-
-Average
-
-Good
-
-After encoding:
-
-Review
-
-Encoded
-
-Good
-
-2
-
-Poor
-
-0
-
-Average
-
-1
-
-Good
-
-2
+| Review  | Encoded |
+|---------|--------:|
+| Good    |       2 |
+| Poor    |       0 |
+| Average |       1 |
+| Good    |       2 |
 
 Python Implementation
 
