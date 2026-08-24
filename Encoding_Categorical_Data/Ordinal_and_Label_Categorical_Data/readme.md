@@ -8,37 +8,13 @@ In a dataset, some columns contain categories or text values instead of numbers.
 
 For example:
 
-Gender
+| Gender | Review | Education | Purchased |
+|--------|--------|-----------|-----------|
+| Male | Good | PG | Yes |
+| Female | Poor | UG | No |
+| Male | Average | School | Yes |
+| Female | Good | PG | No |
 
-Review
-
-Education
-
-Purchased
-
-Male
-
-Good
-
-PG
-
-Yes
-
-Female
-
-Poor
-
-UG
-
-No
-
-Male
-
-Average
-
-School
-
-Yes
 
 Most Machine Learning algorithms work with numerical data. Therefore, we need to convert categorical values into numbers.
 
