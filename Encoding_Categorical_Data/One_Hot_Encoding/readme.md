@@ -65,3 +65,15 @@ pd.get_dummies(
     dtype=int,
     drop_first=True
 )
+```
+- columns selects categorical columns.
+
+- dtype=int produces integer values.
+
+- drop_first=True drops the first category.
+
+Problem With Pandas Encoding
+
+The notebook notes that Pandas does not remember which encoded category was assigned to which position. This matters when separately transforming training and testing data.
+
+For this reason, Scikit-Learn's OneHotEncoder is used.
